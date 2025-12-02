@@ -6,6 +6,30 @@
 
 **Large World Model (LWM)** is a general-purpose large-context multimodal autoregressive model. It is trained on a large dataset of diverse long videos and books using RingAttention, and can perform language, image, and video understanding and generation.
 
+# Heroku Button Deployment
+
+## Markdown
+
+```markdown
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2FLargeWorldModel%2FLWM%2Ftree%2Fmain)
+```
+
+## HTML
+
+```html
+<a href="https://www.heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2FLargeWorldModel%2FLWM%2Ftree%2Fmain">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+```
+
+## Direct URL
+
+https://www.heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2FLargeWorldModel%2FLWM%2Ftree%2Fmain
+
+---
+
+Copy the Markdown or HTML code above and paste it into your README.md file.
+
 
 ## Approach
 
