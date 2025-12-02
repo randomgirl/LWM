@@ -1,0 +1,24 @@
+{
+  "name": "My App Name",
+  "description": "My app description",
+  "stack": "heroku-22",
+  "repository": "https://github.com/LargeWorldModel/LWM",
+  "keywords": [
+    "python"
+  ],
+  "env": {
+    "API_KEY": {
+      "required": true,
+      "value": "",
+      "description": "Set API_KEY environment variable"
+    },
+    "OPENAI_API_KEY": {
+      "required": true,
+      "value": "",
+      "description": "Set OPENAI_API_KEY environment variable"
+    }
+  },
+  "addons": [
+    "heroku-postgresql:essential-0"
+  ]
+}
